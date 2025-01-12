@@ -1,0 +1,32 @@
+.edu-mainContainer {
+    @apply flex justify-center h-[100%] bg-black;
+}
+
+.edu-textBox {
+    @apply flex py-5 my-20 flex-col justify-start items-center h-[100%];
+    width: calc(100% - 500px);
+}
+
+.edu-logo {
+    @apply h-[100px];
+}
+
+.edu-header {
+    @apply flex items-center justify-center text-white text-4xl font-bold w-[90%] h-[10%] py-5;
+}
+
+.edu-list {
+    @apply pt-5 h-auto flex flex-col justify-center text-white font-light;
+}
+
+.edu-list li {
+    @apply text-[18px];
+}
+
+.edu-list h2 {
+    @apply font-medium text-[25px]
+}
+
+.edu-list h3 {
+    @apply font-light text-[20px]
+}
