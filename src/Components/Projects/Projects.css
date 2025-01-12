@@ -1,0 +1,36 @@
+.proj-mainContainer {
+    @apply flex flex-col items-center h-auto bg-black;
+}
+
+.proj-contentBox {
+    @apply flex py-5 my-20 flex-col justify-center items-center w-auto;
+}
+
+.proj-header {
+    @apply flex justify-center text-white text-4xl font-bold w-[90%] h-[10%] py-5;
+}
+
+.proj-content {
+    @apply flex p-10 justify-center items-center;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------*/
+
+.box-container {
+
+}
+
+.box-header {
+    @apply text-white font-medium text-[20px];
+}
+
+.box-paragraph {
+    @apply text-white text-[15px];
+}
+
+.box-link {
+    @apply text-blue-500 underline;
+}
+
+
+
