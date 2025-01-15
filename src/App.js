@@ -5,6 +5,7 @@ import Nameplate from "./Components/Nameplate/Nameplate";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Education from "./Components/Education/Education"
 import Projects from "./Components/Projects/Projects";
+import ContactMe from "./Components/Contact/Contact"
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                             <AboutMe/>
                             <Education/>
                             <Projects/>
+                            <ContactMe/>
                         </div>
                     }>
                     </Route>

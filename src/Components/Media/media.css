@@ -1,12 +1,23 @@
 .slide-container {
-    @apply flex items-center justify-between m-5;
+    @apply flex items-center justify-between w-[600px] m-5 border-amber-700 border-2;
 }
 .slide-images {
-    @apply h-[700px] px-[8%] py-5;
+    @apply h-[600px]  px-[8%] py-5;
 }
 .slide-button {
     @apply flex items-center justify-center;
 }
 .slide-arrow {
-    @apply h-[60px];
+    @apply w-[60px];
 }
+
+/*-------------------------------------------------------------------------------*/
+.video-container {
+    @apply flex justify-center align-middle;
+}
+
+.video-player {
+    @apply p-5 w-[600px] min-w-[600px] border-amber-700 border-2;
+}
+
+
