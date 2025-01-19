@@ -1,6 +1,6 @@
 .name-mainContainer {
-    @apply flex justify-center items-center bg-background h-[100%];
-    /*height: calc(100vh - 80px);*/
+    @apply flex justify-center items-center bg-background;
+    height: calc(100vh - 80px);
 }
 
 .name-nameplate {
