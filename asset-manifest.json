@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c746410.css",
-    "main.js": "/static/js/main.b9664d4e.js",
-    "static/media/home.png": "/static/media/home.1f48dd4607ada5c0acbc.png",
-    "static/media/map.png": "/static/media/map.68ca95691c181085a902.png",
-    "static/media/settings.png": "/static/media/settings.5263e2ab48325e02b11a.png",
-    "static/media/chat.png": "/static/media/chat.736dfa138bc5972ffafa.png",
-    "static/media/login.png": "/static/media/login.3aef286ba78bbe39b911.png",
-    "static/media/ubc_logo.png": "/static/media/ubc_logo.c5b21998574bc613ccbe.png",
-    "index.html": "/index.html",
-    "main.7c746410.css.map": "/static/css/main.7c746410.css.map",
-    "main.b9664d4e.js.map": "/static/js/main.b9664d4e.js.map"
+    "main.css": "/Website/static/css/main.057b2046.css",
+    "main.js": "/Website/static/js/main.5bd513f2.js",
+    "static/media/f1_car.mp4": "/Website/static/media/f1_car.128711996408361f24bc.mp4",
+    "static/media/home.png": "/Website/static/media/home.1f48dd4607ada5c0acbc.png",
+    "static/media/map.png": "/Website/static/media/map.68ca95691c181085a902.png",
+    "static/media/bubble.mp4": "/Website/static/media/bubble.68eb1694623eadbcb952.mp4",
+    "static/media/settings.png": "/Website/static/media/settings.5263e2ab48325e02b11a.png",
+    "static/media/chat.png": "/Website/static/media/chat.736dfa138bc5972ffafa.png",
+    "static/media/login.png": "/Website/static/media/login.3aef286ba78bbe39b911.png",
+    "static/media/ubc_logo.png": "/Website/static/media/ubc_logo.c5b21998574bc613ccbe.png",
+    "index.html": "/Website/index.html",
+    "main.057b2046.css.map": "/Website/static/css/main.057b2046.css.map",
+    "main.5bd513f2.js.map": "/Website/static/js/main.5bd513f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c746410.css",
-    "static/js/main.b9664d4e.js"
+    "static/css/main.057b2046.css",
+    "static/js/main.5bd513f2.js"
   ]
 }
