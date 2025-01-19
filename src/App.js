@@ -13,15 +13,16 @@ const App = () => {
             <div className="flex flex-col">
                 <Navbar />
                 <Nameplate />
+                <AboutMe />
+                <Education />
+                <Projects />
+                <ContactMe />
                 <Routes>
                     <Route
                         path="/"
                         element={
                             <div>
-                                <AboutMe />
-                                <Education />
-                                <Projects />
-                                <ContactMe />
+
                             </div>
                         }
                     />
