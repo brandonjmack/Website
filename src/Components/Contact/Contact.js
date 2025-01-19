@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="contact-textBox">
                 <h1 className="contact-header">Contact Me</h1>
                 <p className="contact-paragraph">
-                    Email: brandonjmack@protonmail.com
+                    brandonjmack@protonmail.com
                 </p>
                 <a href="https://www.linkedin.com/in/brandon-mack-15755a271/" className="contact-links">LinkedIn</a>
                 <a href="https://github.com/brandonjmack" className="contact-links">GitHub</a>
