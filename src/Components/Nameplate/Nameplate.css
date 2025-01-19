@@ -1,8 +1,8 @@
 .name-mainContainer {
-    @apply flex justify-center items-center bg-black;
-    height: calc(100vh - 95px);
+    @apply flex justify-center items-center bg-background;
+    height: calc(100vh - 80px);
 }
 
 .name-nameplate {
-    @apply text-white text-[100px] font-bold text-center;
+    @apply text-white text-[50px] sm:text-[70px] md:text-[100px] lg:text-[120px] font-bold text-center transition-all duration-300 ease-in-out;
 }

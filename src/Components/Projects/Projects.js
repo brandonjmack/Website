@@ -6,7 +6,7 @@ import ProjectBox from "./ProjectBox";
 
 const Projects = () => {
     return (
-        <div className="proj-mainContainer">
+        <div id="projects" className="proj-mainContainer">
             <div className="proj-contentBox">
                 <h1 className="proj-header">Projects</h1>
                 <div className="proj-content">

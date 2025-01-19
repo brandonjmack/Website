@@ -3,28 +3,29 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
     return (
-        <div className="about-mainContainer">
+        <div id="about_me" className="about-mainContainer" >
             <div className="about-textBox">
                 <h1 className="about-header"> About Me </h1>
                 <p className="about-paragraph">
-                    Hi, my name is Brandon and I am a fourth year computer science
-                    student at the University of British Columbia Okanagan. During
-                    my studies I have built a strong foundation in programming,
-                    software development techniques, version control practices and
-                    collaborative development environments.
-                    <br/>
-                    <br/>
-                    I enjoy working on both front-end and back-end development
-                    with a focus on creating user-friendly interfaces and improving
-                    the overall user experience. My academics have provided me with
-                    experience in web development, mobile applications, database
-                    management, networking and software engineering principles.
-                    <br/>
-                    <br/>
-                    I am excited about new technologies and want to explore new,
-                    innovative solutions that arise from them. I am currently seeking
-                    opportunities in fields such as cyber-security and software
-                    development.
+                   Hi! My name is Brandon and am a recent graduate from the University of
+                    British Columbia Okanagan with a BSc in Computer Science. Through my
+                    academic journey I have developed skills in programming, collaboration,
+                    software development methodologies and project management. Through my studies
+                    I have established a diverse skill-set that spans both front-end and back-end
+                    development, and I have learned to create software that is both functional and
+                    user-centric.
+                    <br/><br/>
+                    I have been passionate about all things technology for as long as I can remember.
+                    I am particularly interested in fields such as cybersecurity and software development,
+                    but I am always open to new challenges and opportunities. I love working through
+                    and solving complex problems, while delivering a solution that will have a meaningful
+                    impact.
+                    <br/><br/>
+                    As I have no completed my studies I am seeking opportunities to apply and develop
+                    my skills, learn from industry experts and contribute to projects that will be used
+                    in the real-world. I am eager to join a company that prioritizes innovation and
+                    a tight knit team. I am extremely excited to apply my skills, and bring my passion
+                    for technology to a role where I can continue to develop and grow.
                 </p>
             </div>
         </div>

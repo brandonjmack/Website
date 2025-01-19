@@ -6,9 +6,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      height: {
-        'auto-minus-100': 'calc(auto - 100px)',
-      }
+      colors: {
+        background: "#353535",
+        container: "#D9D9D9",
+        white: "#FFFFFF",
+        primary: "#284B63",
+        secondary: "#3C6E71"
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif']
+      },
+      screens: {
+      },
     },
   },
   plugins: [],

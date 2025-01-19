@@ -1,36 +1,33 @@
 .proj-mainContainer {
-    @apply flex flex-col items-center h-auto bg-black;
+    @apply flex flex-col items-center bg-background h-auto;
 }
 
 .proj-contentBox {
-    @apply flex py-5 my-20 flex-col justify-center items-center w-auto;
+    @apply flex flex-col p-6 sm:p-8 md:p-12 justify-center items-center w-[90%] sm:w-[80%] md:w-[70%] bg-container rounded-[15px] mb-20 sm:mb-32 md:mb-40 transition-all duration-300 ease-in-out;
 }
 
 .proj-header {
-    @apply flex justify-center text-white text-4xl font-bold w-[90%] h-[10%] py-5;
+    @apply text-primary text-2xl sm:text-3xl md:text-4xl font-bold w-full text-center transition-all duration-300 ease-in-out;
 }
 
 .proj-content {
-    @apply flex flex-col p-10 justify-center items-center;
+    @apply flex flex-col justify-center items-center w-full transition-all duration-300 ease-in-out;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------------- */
 
 .box-container {
-
+    @apply flex flex-col justify-center bg-secondary rounded-[10px] mt-6 sm:mt-8 md:mt-10 mb-6 sm:mb-8 md:mb-10 p-5 sm:p-6 md:p-8 w-[90%] sm:w-[90%] md:w-[95%] transition-all ease-in-out;
 }
 
 .box-header {
-    @apply text-white font-medium text-[20px];
+    @apply text-white font-medium text-xl sm:text-2xl md:text-3xl text-center mb-10 mt-2 transition-all duration-300 ease-in-out;
 }
 
 .box-paragraph {
-    @apply text-white text-[15px];
+    @apply text-white text-base sm:text-[16px] md:text-[17px] px-6 sm:px-8 md:px-10 text-justify transition-all duration-300 ease-in-out;
 }
 
 .box-link {
-    @apply text-blue-500 underline;
+    @apply text-white text-[18px] underline px-6 sm:px-8 md:px-10 py-2 sm:py-3 md:py-4 mt-5 text-center transition-all duration-300 ease-in-out;
 }
-
-
-

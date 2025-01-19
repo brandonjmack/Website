@@ -1,16 +1,19 @@
 .contact-mainContainer {
-    @apply flex justify-center h-[100%] bg-black;
+    @apply flex justify-center h-[100%] bg-background;
 }
 
 .contact-textBox {
-    @apply flex py-5 mb-20 flex-col justify-start items-center h-[100%];
-    width: calc(100% - 500px);
+    @apply mb-20 flex p-12 flex-col justify-start items-center h-[100%] w-[70%] bg-container rounded-[15px];
 }
 
 .contact-header {
-    @apply flex items-center justify-center text-white text-4xl font-bold w-[90%] h-[10%] py-5;
+    @apply flex items-center justify-center text-primary text-4xl font-bold;
 }
 
-.contact-paragraph {
-    @apply pt-5 w-[250px] h-auto text-white font-light text-justify ;
+.contact-paragraph{
+    @apply mt-7 w-auto h-auto text-primary text-justify text-[20px];
+}
+
+.contact-links {
+    @apply mt-3 w-auto h-auto text-primary text-justify text-[20px];
 }

@@ -1,24 +1,40 @@
 import React from 'react';
 import "./Education.css";
-import UBCLogo from "./Images/ubc_logo.png"
+import UBCLogo from "./Images/ubc_logo.png";
 
 const Education = () => {
+    const coursework = [
+        "Human Computer Interaction",
+        "Introduction to Databases",
+        "Analysis of Algorithms",
+        "Software Engineering",
+        "Project Management",
+        "Web Programming",
+
+    ];
+
     return (
-        <div className="edu-mainContainer">
+        <div id="education" className="edu-mainContainer">
             <div className="edu-textBox">
                 <h1 className="edu-header">Education</h1>
                 <img src={UBCLogo} alt="University of British Columbia Logo" className="edu-logo"/>
-                <ul className="edu-list">
-                    <h3> Bachelor of Science in Computer Science </h3>
-                    <h3> Graduation Date: December 2024 </h3>
+                <div className="edu-list">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <h3>Graduation Date: December 2024</h3>
                     <br/>
-                    <h2>Relevant Coursework</h2>
-                    <li>Software Engineering (COSC 310)</li>
-                    <li>Analysis of Algorithms (COSC 320)</li>
-                    <li>Introduction to Databases (COSC 304)</li>
-                    <li>Advanced Computer Human Interaction (COSC 441)</li>
-                    <li>Project Management (COSC 305)</li>
-                </ul>
+                    <h3 className="edu-courses">Relevant Coursework</h3>
+                    <div className="edu-list_items">
+                        <div className="edu-table">
+                            <div className="edu-table_body">
+                                {coursework.map((course, index) => (
+                                    <div key={index} className="edu-table_item">
+                                        {course}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

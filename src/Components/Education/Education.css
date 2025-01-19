@@ -1,32 +1,48 @@
 .edu-mainContainer {
-    @apply flex justify-center h-[100%] bg-black;
+    @apply flex justify-center bg-background;
+    height: 100%;
 }
 
 .edu-textBox {
-    @apply flex py-5 my-20 flex-col justify-start items-center h-[100%];
-    width: calc(100% - 500px);
+    @apply flex p-6 sm:p-8 md:p-12 mb-40 flex-col justify-start items-center h-auto w-[90%] sm:w-[80%] md:w-[70%] bg-container rounded-[15px] transition-all duration-300 ease-in-out;
 }
 
 .edu-logo {
-    @apply h-[100px];
+    @apply h-[60px] sm:h-[80px] md:h-[100px] my-5 sm:my-6 md:my-7 transition-all duration-300 ease-in-out;
 }
 
 .edu-header {
-    @apply flex items-center justify-center text-white text-4xl font-bold w-[90%] h-[10%] py-5;
+    @apply flex items-center justify-center text-primary font-bold text-2xl sm:text-3xl md:text-4xl transition-all duration-300 ease-in-out;
+}
+
+.edu-list_items {
+    @apply flex justify-center items-center mt-2 transition-all duration-300 ease-in-out;
 }
 
 .edu-list {
-    @apply pt-5 h-auto flex flex-col justify-center text-white font-light;
+    @apply h-auto w-full flex flex-col justify-center text-white font-light space-y-2 sm:space-y-3 transition-all duration-300 ease-in-out;
 }
 
 .edu-list li {
-    @apply text-[18px];
-}
-
-.edu-list h2 {
-    @apply font-medium text-[25px]
+    @apply text-[14px] sm:text-[16px] md:text-[17px] font-normal transition-all duration-300 ease-in-out;
 }
 
 .edu-list h3 {
-    @apply font-light text-[20px]
+    @apply font-medium text-[20px] sm:text-[22px] md:text-[24px] text-center text-primary transition-all duration-300 ease-in-out;
+}
+
+.edu-courses {
+    @apply underline
+}
+
+.edu-table {
+    @apply w-full text-primary flex justify-center items-center overflow-x-auto transition-all duration-300 ease-in-out;
+}
+
+.edu-table_body {
+    @apply grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3 transition-all duration-300 ease-in-out;
+}
+
+.edu-table_body div {
+    @apply p-2 sm:p-3 md:p-4 text-center text-[15px] sm:text-[16px] md:text-[19px] font-medium list-item overflow-hidden whitespace-nowrap transition-all duration-300 ease-in-out;
 }
