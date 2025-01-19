@@ -9,7 +9,7 @@ import ContactMe from "./Components/Contact/Contact";
 
 const App = () => {
     return (
-        <Router basename="/Website">
+        <Router basename="">
             <div className="flex flex-col">
                 <Navbar />
                 <Nameplate />
