@@ -15,5 +15,5 @@
 }
 
 .contact-links {
-    @apply mt-3 w-auto h-auto text-primary text-justify text-[20px];
+    @apply mt-3 w-auto h-auto text-primary text-justify text-[20px] underline;
 }
