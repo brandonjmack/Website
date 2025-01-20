@@ -7,7 +7,7 @@ const AboutMe = () => {
             <div className="about-textBox">
                 <h1 className="about-header"> About Me </h1>
                 <p className="about-paragraph">
-                   Hi! My name is Brandon and am a recent graduate from the University of
+                   Hi! My name is Brandon and I am a recent graduate from the University of
                     British Columbia Okanagan with a BSc in Computer Science. Through my
                     academic journey I have developed skills in programming, collaboration,
                     software development methodologies and project management. Through my studies

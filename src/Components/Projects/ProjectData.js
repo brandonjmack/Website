@@ -60,7 +60,7 @@ const ProjectData = {
         },
         {
             id: 3,
-            title: "F1 Car",
+            title: "Goodwood Festival of Speed Poster",
             description: (
                 <>
                     As part of my media studies class which focused on using code in a
