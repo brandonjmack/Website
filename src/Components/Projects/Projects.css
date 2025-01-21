@@ -3,7 +3,7 @@
 }
 
 .proj-contentBox {
-    @apply flex flex-col p-6 sm:p-8 md:p-12 justify-center items-center w-[90%] sm:w-[80%] md:w-[70%] bg-container rounded-[15px] mb-20 sm:mb-32 md:mb-40 transition-all duration-300 ease-in-out;
+    @apply flex flex-col p-2 sm:p-8 md:p-12 justify-center items-center w-[90%] sm:w-[80%] md:w-[70%] bg-container rounded-[15px] mb-20 sm:mb-32 md:mb-40 transition-all duration-300 ease-in-out;
 }
 
 .proj-header {
@@ -17,7 +17,7 @@
 /* ------------------------------------------------------------------------------------------------------------------- */
 
 .box-container {
-    @apply flex flex-col justify-center bg-secondary rounded-[10px] mt-6 sm:mt-8 md:mt-10 mb-6 sm:mb-8 md:mb-10 p-5 sm:p-6 md:p-8 w-[90%] sm:w-[90%] md:w-[93%] transition-all ease-in-out;
+    @apply flex flex-col justify-center bg-secondary rounded-[10px] mt-6 sm:mt-8 md:mt-10 mb-6 sm:mb-8 md:mb-10 sm:p-6 md:p-8 w-[100%] sm:w-[90%] md:w-[93%] transition-all ease-in-out;
 }
 
 .box-header {

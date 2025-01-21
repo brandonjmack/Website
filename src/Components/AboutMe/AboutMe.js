@@ -21,7 +21,7 @@ const AboutMe = () => {
                     and solving complex problems, while delivering a solution that will have a meaningful
                     impact.
                     <br/><br/>
-                    As I have no completed my studies I am seeking opportunities to apply and develop
+                    As I have now completed my studies I am seeking opportunities to apply and develop
                     my skills, learn from industry experts and contribute to projects that will be used
                     in the real-world. I am eager to join a company that prioritizes innovation and
                     a tight knit team. I am extremely excited to apply my skills, and bring my passion

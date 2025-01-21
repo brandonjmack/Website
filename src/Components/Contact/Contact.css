@@ -7,13 +7,13 @@
 }
 
 .contact-header {
-    @apply flex items-center justify-center text-primary text-4xl font-bold;
+    @apply flex items-center justify-center text-primary text-2xl sm:text-3xl md:text-4xl font-bold;
 }
 
 .contact-paragraph{
-    @apply mt-7 w-auto h-auto text-primary text-justify text-[20px];
+    @apply mt-7 w-auto h-auto text-primary text-justify text-[15px] sm:text-[22px] md:text-[24px];
 }
 
 .contact-links {
-    @apply mt-3 w-auto h-auto text-primary text-justify text-[20px] underline;
+    @apply mt-3 w-auto h-auto text-primary text-justify text-[15px] sm:text-[22px] md:text-[24px] underline;
 }
